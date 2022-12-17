@@ -1,0 +1,32 @@
+* {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.5rem;
+}
+
+h1 {
+    font-size: 150%;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 6px;
+}
+
+header li {
+    display: inline;
+    font-size: 90%;
+}
+
+.introduction {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 6px;
+}
