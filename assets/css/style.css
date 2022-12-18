@@ -60,6 +60,7 @@ header li {
     text-align: center;
     outline: auto;
     border-radius: 1.0rem;
+    margin-top: 1rem
 }
 
 .projects img {
@@ -93,7 +94,7 @@ header li {
     border-bottom-right-radius: 1.0rem;
 }
 
-@media screen and (max-width: 772px) {
+@media screen and (max-width: 600px) {
     .projects {
       display: flex;
       flex-direction: column;
