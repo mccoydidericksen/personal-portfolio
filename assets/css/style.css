@@ -1,6 +1,8 @@
 * {
     font-family: 'Inter', sans-serif;
     line-height: 1.5rem;
+    background-color: rgb(33, 32, 32);
+    color: white
 }
 
 header {
