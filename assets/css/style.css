@@ -79,9 +79,28 @@ header li {
     margin-top: 1rem
 }
 
-.projects p {
-    border-bottom-left-radius: 1.0rem;
-    border-bottom-right-radius: 1.0rem;
+.projects ul {
+    display: flex;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    justify-content: start;
+}
+
+.projects li {
+    display: flex;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    border: 2px solid;
+    border-radius: 0.4rem;
+    margin-right: 1rem;
+}
+
+.projects h3 {
+    display: flex;
+    text-align: left;
+    padding-left: 1rem;
+    padding-top: 1rem;
 }
 
 .projects img {
@@ -110,9 +129,28 @@ header li {
     border-radius: 1.0rem;
 }
 
-.main-project p {
-    border-bottom-left-radius: 1.0rem;
-    border-bottom-right-radius: 1.0rem;
+.main-project ul {
+    display: flex;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    justify-content: start;
+}
+
+.main-project li {
+    display: flex;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    border: 2px solid;
+    border-radius: 0.4rem;
+    margin-right: 1rem;
+}
+
+.main-project h3 {
+    display: flex;
+    text-align: left;
+    padding-left: 1rem;
+    padding-top: 1rem;
 }
 
 .main-project img {
