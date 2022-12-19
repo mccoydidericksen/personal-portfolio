@@ -12,15 +12,24 @@
 
 header {
     display: flex;
-    justify-content: space-evenly;
-    text-align: center;
-    padding: 1.5%;
+    flex-direction: row;
+    justify-content: center;
+    overflow-y: auto;
     padding-bottom: 1%;
+    background-color: rgb(33, 32, 32);
 }
 
 header li {
     display: inline;
-    font-size: 90%;
+    font-size: 0.9rem;
+}
+
+header ul :nth-child(even)::before {
+    content: "| ";
+}
+
+header ul :nth-child(3)::before {
+    content: "| ";
 }
 
 .introduction {
