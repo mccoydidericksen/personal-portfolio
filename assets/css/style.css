@@ -219,6 +219,11 @@ header li {
     max-width: 9rem;
     font-size: 0.9rem;
     text-align: center;
+    background-image: linear-gradient(
+        to right,
+        rgba(80,45,97, 0.8) 0%,
+        rgba(240,216,131, 0.7) 100%
+      );
 }
 
 @media screen and (max-width: 600px) {
