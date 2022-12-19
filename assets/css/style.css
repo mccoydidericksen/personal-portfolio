@@ -167,12 +167,14 @@ header li {
 
 .contact {
     display: flex;
-    flex-direction: column;
+    position: relative;
+    flex-direction: row;
     justify-content: center;
     text-align: center;
-    padding-bottom: 2%;
-    padding-left: 8rem;
-    padding-right: 8rem;
+}
+
+.contact u {
+    padding-right: 30rem;
 }
 
 .contact-form {
@@ -190,7 +192,7 @@ header li {
     justify-content: start;
     font-size: large;
     font-weight: 600;
-    padding-bottom: 1%;
+    padding-bottom: 1rem;
     padding-left: 1%;
     text-underline-offset: 0.2rem;
 }
@@ -223,17 +225,22 @@ header li {
     text-align: center;
     background-image: linear-gradient(
         to right,
-        rgba(80,45,97, 0.8) 0%,
-        rgba(240,216,131, 0.7) 100%
+        rgba(7,147,30, 0.3) 0%,
+        rgb(251,202,110, 0.7) 100%
       );
 }
 
 .section-title{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    text-align: left;
-    font-size: 1.5rem;
+    text-align: center;
+    font-size: 1.3rem;
+    padding-top: 2rem;
+    padding-right: 70%;
+    padding-bottom: 1rem;
+    align-items: center;
+
 }
 
 .timeline {
@@ -256,17 +263,47 @@ header li {
     position: relative;
     margin-left: 1rem;
     padding: 1rem;
-    max-width: 25rem;
+    max-width: 38rem;
 }
 
 .info {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+    justify-content: start;
+    align-items: center;
+    flex: 1 0 auto;
+    max-width: 50rem;
+    border-radius: 1.0rem;
+    padding-bottom: 0.7rem;
 }
 
-.year {
-    font-size: 1.2rem;
+.info h3 {
+    font-size: 0.85rem;
+    font-weight: 600;
+    background-color: white;
+    color: black;
+    padding: 0.1rem 0.5rem 0.1rem 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.4rem;
+}
+
+.info h4 {
+    display: flex;
+    white-space: nowrap;
+    font-size: 0.95rem;
+    padding-right: 10px;
+    padding-left: 15px;
+}
+
+.info p {
+    font-size: 0.8rem;
+    color: gray;
+}
+
+.card p {
+    font-size: 0.9rem;
+    color: gray;
 }
 
 .year::before {
@@ -312,5 +349,24 @@ header li {
         height: 20rem;
         border-top-left-radius: 1.0rem;
         border-top-right-radius: 1.0rem;
+    }
+
+    .contact u {
+        padding-right: 20rem;
+    }
+  }
+
+  @media screen and (min-width: 930px) {
+    .section-title{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        font-size: 1.3rem;
+        padding-top: 2rem;
+        padding-left: 26%;
+        padding-right: 70%;
+        padding-bottom: 1rem;
+        align-items: center;
     }
   }
