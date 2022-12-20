@@ -104,7 +104,7 @@ header ul :nth-child(3)::before {
     padding-left: 1rem;
     border: 2px solid;
     border-radius: 0.4rem;
-    margin-right: 1rem;
+    margin-right: 0.5rem;
 }
 
 .projects h3 {
@@ -115,7 +115,7 @@ header ul :nth-child(3)::before {
 }
 
 .projects img {
-    height: 16rem;
+    height: 17rem;
     border-top-left-radius: 1.0rem;
     border-top-right-radius: 1.0rem;
 }
@@ -154,7 +154,7 @@ header ul :nth-child(3)::before {
     padding-left: 1rem;
     border: 2px solid;
     border-radius: 0.4rem;
-    margin-right: 1rem;
+    margin-right: 0.5rem;
 }
 
 .main-project h3 {
